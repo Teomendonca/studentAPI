@@ -1,0 +1,52 @@
+[
+  {
+    "nome": "Ana Carolina Silva",
+    "matricula": "20230001",
+    "email": "ana.silva@escola.com"
+  },
+  {
+    "nome": "Bruno Oliveira Santos",
+    "matricula": "20230002",
+    "email": "bruno.santos@escola.com"
+  },
+  {
+    "nome": "Carla Mendes Souza",
+    "matricula": "20230003",
+    "email": "carla.souza@escola.com"
+  },
+  {
+    "nome": "Daniel Costa Lima",
+    "matricula": "20230004",
+    "email": "daniel.lima@escola.com"
+  },
+  {
+    "nome": "Eduarda Rocha Almeida",
+    "matricula": "20230005",
+    "email": "eduarda.almeida@escola.com"
+  },
+  {
+    "nome": "Felipe Gomes Pereira",
+    "matricula": "20230006",
+    "email": "felipe.pereira@escola.com"
+  },
+  {
+    "nome": "Gabriela Martins Ribeiro",
+    "matricula": "20230007",
+    "email": "gabriela.ribeiro@escola.com"
+  },
+  {
+    "nome": "Hugo Barbosa Ferreira",
+    "matricula": "20230008",
+    "email": "hugo.ferreira@escola.com"
+  },
+  {
+    "nome": "Isabela Nunes Carvalho",
+    "matricula": "20230009",
+    "email": "isabela.carvalho@escola.com"
+  },
+  {
+    "nome": "João Pedro Lopes Dias",
+    "matricula": "20230010",
+    "email": "joao.dias@escola.com"
+  }
+]
