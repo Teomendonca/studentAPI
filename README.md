@@ -1,7 +1,7 @@
-#API de Gerenciamento Estudantil
+# API de Gerenciamento Estudantil
 API para gestão de alunos, professores, matérias e aulas, desenvolvida com Node.js, Express, Prisma e PostgreSQL.
 
-##Pré-requisitos
+## Pré-requisitos
 
 - [Node.js](https://nodejs.org/) (v18 ou superior)
 - [Docker](https://www.docker.com/get-started/) (para o banco de dados)
@@ -42,7 +42,7 @@ node src/index.js
 ```
 A API estará disponível em: `http://localhost:3000`
 
-## 📊 Endpoints Principais
+## Endpoints Principais
 
 | Método | Endpoint       | Descrição               |
 |--------|----------------|-------------------------|
@@ -50,7 +50,7 @@ A API estará disponível em: `http://localhost:3000`
 | POST   | `/alunos`      | Cria um novo aluno      |
 | GET    | `/professores` | Lista todos os professores |
 
-## 🛠️ Ferramentas Úteis
+## Ferramentas Úteis
 
 - **Prisma Studio**: Para visualizar os dados:
   ```bash
