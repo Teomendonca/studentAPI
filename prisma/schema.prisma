@@ -1,0 +1,42 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://api_user:senha_segura@localhost:5432/gestao_estudantil?schema=public"
+}
+
+model Aluno {
+  id        Int      @id @default(autoincrement())
+  nome      String
+  matricula String   @unique
+  email     String?
+  aulas     Aula[]   // Relação com aulas
+}
+
+model Professor {
+  id          Int      @id @default(autoincrement())
+  nome        String
+  departamento String?
+  aulas       Aula[]   // Relação com aulas
+}
+
+model Materia {
+  id            Int      @id @default(autoincrement())
+  nome          String
+  codigo        String   @unique
+  carga_horaria Int
+  aulas         Aula[]   // Relação com aulas
+}
+
+model Aula {
+  id          Int      @id @default(autoincrement())
+  data_hora   DateTime
+  duracao     Int      // em minutos
+  materia     Materia  @relation(fields: [materia_id], references: [id])
+  materia_id  Int
+  professor   Professor @relation(fields: [professor_id], references: [id])
+  professor_id Int
+  alunos      Aluno[]   // Relação muitos-para-muitos
+}

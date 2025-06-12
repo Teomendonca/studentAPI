@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:13
+    container_name: gestao_estudantil_db
+    environment:
+      POSTGRES_USER: api_user
+      POSTGRES_PASSWORD: senha_segura
+      POSTGRES_DB: gestao_estudantil
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:
